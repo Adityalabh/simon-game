@@ -1,0 +1,46 @@
+h1,h2{
+    text-align: center;
+    color: rgb(28, 165, 199);
+    text-shadow: 2px 2px 4px rgba(37, 36, 36, 0.631);
+}
+
+.prbox{
+    
+    display: flex;
+    justify-content:center;
+    
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border:5px solid black;
+    border-radius: 10%;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+.red{
+    background-color: rgb(204, 94, 113);
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: rgb(67, 172, 83);
+}
+.purple{
+    background-color: rgba(143, 93, 139, 0.928);
+}
+
+.flash{
+    background-color:white;
+}
+.userFlash{
+    background-color: rgb(0, 107, 139);
+    
+}
+
+.box:active {
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+}
+
